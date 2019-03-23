@@ -19,6 +19,7 @@ int main(){
 	printf("Haciendo pruebas con git\n");
 	int total = suma(5,3);
 	printf("total %d", total);
+	int restar = resta(3,1);
 
 
 } 
