@@ -4,8 +4,10 @@ int resta(int a, int b){
 	if(a > b){
 		return a - b;
 	}
-	else
+	else{
+		printf("error, a no puede ser menos que b");
 		return -1;
+	}
 }
 
 int suma(int a, int b){
