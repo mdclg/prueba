@@ -1,5 +1,13 @@
 #include <stdio.h>
 
+int resta(int a, int b){
+	if(a > b){
+		return a - b;
+	}
+	else
+		return -1;
+}
+
 int suma(int a, int b){
 	return a + b;
 }
