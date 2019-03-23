@@ -5,7 +5,7 @@ int resta(int a, int b){
 		return a - b;
 	}
 	else{
-		printf("a debe ser mayor que b");
+		printf("error, a no puede ser menos que b");
 		return -1;
 	}
 }
