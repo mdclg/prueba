@@ -1,11 +1,11 @@
 #include <stdio.h>
 
 int resta(int a, int b){
-	if(a > b){
+	if(a >= b){
 		return a - b;
 	}
 	else{
-		printf("error, a no puede ser menos que b");
+		printf("error, a no puede ser menor que b");
 		return -1;
 	}
 }
