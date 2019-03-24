@@ -6,6 +6,7 @@ int resta(int a, int b){
 	}
 	else{
 		printf("error, a no puede ser menor que b");
+		printf("otro error");
 		return -1;
 	}
 }
