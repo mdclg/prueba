@@ -1,5 +1,9 @@
 #include <stdio.h>
 
+int multiplicacion(int a , int b){
+
+	return a*b;
+}
 int resta(int a, int b){
 	if(a >= b){
 		return a - b;
