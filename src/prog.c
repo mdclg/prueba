@@ -1,11 +1,16 @@
 #include <stdio.h>
 
+int multiplicacion(int a , int b){
+
+	return a*b;
+}
 int resta(int a, int b){
 	if(a >= b){
 		return a - b;
 	}
 	else{
 		printf("error, a no puede ser menor que b");
+		printf("otro error");
 		return -1;
 	}
 }
